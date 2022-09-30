@@ -1,0 +1,238 @@
+body{
+    background-color: #1A1A29;
+    margin: auto;
+}
+/*---Navbar---*/
+.Header
+{  
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo,a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+.nvgtn{
+    justify-content: space-between;
+}
+.nvgtn ul {
+    list-style-type: none;
+    display: flex;
+}
+.nvgtn ul li a{
+    margin: 7px;
+}
+/*---Home Start---*/
+.home
+{   width: 100%;
+    height: 561px;
+    background-color: #282162;
+    position: absolute;
+    align-items: center;
+    top: 64px;
+}
+.home-text{
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 200px;
+}
+.abtm{
+width: 160px;
+height: 36px;
+border: solid 2px;
+border-radius: 8px;
+display: inline-block;
+text-align: center;
+padding-top: 12px;;
+}
+.prjt{
+    width: 160px;
+    height: 36px;
+    border: solid 2px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px;
+}
+.home-btn a:hover{
+    background-color:#7562E0;
+    color: white;
+}
+.home-btn a span{
+    text-align: justify;
+}
+/*---Home ends---*/
+/*---space start---*/
+/*.space{
+    position: absolute;
+    width: 100%;
+    height: 128px;
+    top: 640px;
+}*/
+/*---space ends---*/
+/*---Aboutme start---*/
+.About-me{
+    width: 100%;
+    min-height: 561px;
+    background-color: #282162;
+    position: absolute;
+    top: 640px;
+}
+.abt{
+    display: block;
+    position: relative;
+    top: 560px;
+}
+.Abtme{
+    position: absolute;
+    margin-left: auto;
+    margin-right:auto ;
+    color: white;
+    left: 10%;
+    right: 10%;
+}
+.abtm-txt{
+    font-size: 32px;
+}
+.abtm-p{
+    font-size: 18px;
+}
+.abtm-h4
+{
+    font-size: 24px;
+}
+.container{
+    position: inherit;
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    background-color: red;
+    top: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-box{
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content:space-between;
+    left: 10%;
+}
+.box{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    background-color: #BDBDBD;
+    border-radius: 12px;
+}
+.box:hover{
+    background-color: #7562E0;
+    color: white;
+    border-radius: 12px;
+}
+/*--- Aboutme ends---*/
+/*--- The services I offer starts ---*/
+.services{
+    position: absolute;
+    display: flex;
+    top: 1300px;
+    background-color: #282162;
+    width: 100%;
+    color:white;
+}
+.services2{
+    position: relative;
+    top: 80px;
+    height: 450px;
+    display: inline;
+    /* flex-direction: row; */
+    left: 10%;
+}
+.services3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.web,.emb,.unity,.c,.pro{
+    background-color: #282162;
+    border: 2px solid;
+    border-color: white;
+    width: 140px;
+    height: 160px;
+    margin-right: 20px;
+}
+.servicestxt{
+    color:white;
+    font-size: 32px;
+}
+
+/*--- The services I offer ends ---*/
+/* contact start*/
+.cnt{
+    background-color: #282162;
+    position: absolute;
+    top: 1900px;
+    width: 100%;
+    height: 561px;
+    color: white;
+    display: inline-flex;
+    text-align: center;
+}
+.label{
+    text-align: center;
+}
+.label input{
+    display: flex;
+    background: none;
+    border: none;
+    flex-direction: row;
+    width: 80%;
+    height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    color: white;
+}
+.cntc,.cntc2{
+    width: 50%;
+}
+.cntc h3{
+    font-size: 32px;
+}
+.cntc h5{
+    font-size: 18px;
+}
+.cntc2 h5{
+    font-size: 24px;
+}
+/*---contacts ends---*/
+/*--- footer start --- */
+.foot{
+    position: absolute;
+    width: 100%;
+    top: 2450px;
+    background-color: #1A1A29;
+}
+.footer{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:space-between;
+    
+    color: white;
+}
+/*--- footer ends ---*/
